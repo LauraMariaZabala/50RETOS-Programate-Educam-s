@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: steelblue;
+  margin: 0;
+  overflow: hidden;
+  height: 100vh;
+
+
+}
+
+.empty {
+  margin: 9px;
+  width: 150px;
+  height: 150px;
+  background: white;
+  border: solid 4px black;
+
+}
+
+.fill {
+  height: 143px;
+  width: 143px;
+  background-image: url('https://source.unsplash.com/random/150x150');
+  cursor: pointer;
+
+}
+
+.hold {
+  border: solid 4px #ccc;
+}
+
+.hovered {
+  border-style: dashed;
+  background-color: #333;
+  border-color: #fff;
+}
+
+@media (max-width: 800px) {
+  body{
+    flex-direction: column;
+  }
+}
