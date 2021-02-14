@@ -75,12 +75,7 @@ a:hover {
   line-height: 1.1;
 }
 
-.avatar {
-  width: 32px;
-  height: 32px;
-  margin-right: 4px;
-  overflow: hidden;
-}
+
 
 .bg-image {
   background-repeat: no-repeat;
@@ -90,7 +85,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #2d5d0ebd;
+  background-color: #a2c8e8;
 }
 
 .overlay-mf {
@@ -160,7 +155,7 @@ a:hover {
 .line-mf {
   width: 40px;
   height: 5px;
-  background-color: #cf1717;
+  background-color: #e856b5;
   margin: 0 auto;
 }
 
@@ -179,7 +174,7 @@ a:hover {
   content: '';
   position: absolute;
   height: 3px;
-  background-color: #cf1717;
+  background-color: #e856b5;
   width: 100px;
   bottom: -12px;
 }
@@ -216,7 +211,7 @@ a:hover {
   border-radius: 50%;
   line-height: 1.4;
   margin: 0 15px 0 0;
-  box-shadow: 0 0 0 3px #e24040;
+  box-shadow: 0 0 0 3px #e856b5;
   transition: all 500ms ease;
 }
 
@@ -246,7 +241,7 @@ a:hover {
 }
 
 .list-ico span {
-  color: #e24949;
+  color: #e856b5;
   margin-right: 10px;
 }
 
@@ -885,7 +880,7 @@ a:hover {
   color: #fff;
   padding: 0 15px 5px;
   overflow: hidden;
-  background-color: #db4d4d;
+  background-color: #a2c8e8;
   border-radius: 4px;
 }
 
